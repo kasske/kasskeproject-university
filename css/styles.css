@@ -1,0 +1,385 @@
+/*===========    gjenerale ========*/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #30486c;
+  font-family: 'Lora', serif;
+}
+
+/*=========   headeri =========*/
+
+#header-nav {
+	background-color: #61122f;
+	border-radius: 0;
+	border: 0;
+
+}
+
+#logo-img {
+	background: url(../images/UP.png) no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Universiteti i PR */
+  font-family: 'Lora', serif;
+  color: #C6C6C6;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Ushtrime */
+  color: #E5E5E5;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Smiley face */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #E5E5E5;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #30486c;
+}
+
+.navbar-default .navbar-nav>.active>a {
+/*Informata se ku gjindemi ne navigim*/
+background-color: #30486c;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Nr i telefonit */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* Referentat */
+  color: #ffff00;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #E5E5E5;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;  /*me zvoglu pjesen e kuqe pasiqe kemi mi zvoglu titullin*/
+}
+/* Perfundoi Headeri */
+
+/*================ FOOTERI ==================*/
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#orari, #address {
+  line-height: 2;
+}
+#orari > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#theniet {
+  font-style: italic;
+}
+#theniet p:nth-child(2) {
+  margin-top: 25px;
+}
+/* Perfundoi FOOTERI */
+
+/* ============== HOME PAGE ============== */
+.container .jumbotron {
+  box-shadow: 0 0 50px #61122f;
+  border: 2px solid #61122f;
+}
+
+#stafi-tile, #deget-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #61122f;
+  overflow: hidden;
+}
+#stafi-tile:hover, #deget-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#stafi-tile {
+  background: url('../images/stafi-360x250.png') no-repeat;
+  background-position: center;
+}
+#deget-tile {
+  background: url('../images/deget-360x250.jpg') no-repeat;
+  background-position: center;
+}
+
+#stafi-tile span, #deget-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #61122f;
+  color: #fff;
+  opacity: .8;
+}
+/* Perfundoi HOME PAGE */
+
+/* =========== Departamentet ============== */
+.category-tile { 
+  position: relative;
+  border: 2px solid #61122f;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #61122f;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#stafi-dega-title {
+  margin-bottom: 50px;
+}
+/* Perfundoi Departamentet */
+
+/* ================ Stafi =============== */
+.profesori-tile {
+  margin-bottom: 25px;
+}
+.profesori-tile hr {
+  width: 80%;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #61122f; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.profesori-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* Perfundoi stafi */
+
+/********** Ekranet e medha **********/
+@media (min-width: 1200px) {
+
+  .container .jumbotron {
+    background: url('../images/1200-675-madhe.jpg') no-repeat;
+    height: 675px;
+  }
+
+}
+
+/********** Ekranet e mesme **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/UP-medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* Perfundoi Header */
+
+    /* Home Page */
+  .container .jumbotron {
+    background: url('../images/992-558-mesme.jpg') no-repeat;
+    height: 558px;
+  }
+  /* Perfundoi Home Page */
+}
+
+/********** Ekranet e vogla **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/768-432-vogel.jpg') no-repeat;
+    height: 432px;
+  }
+  /* Perfundoi Home Page */
+
+}
+
+/********** Ekrane shume te vogla **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Uni i Prishtines */
+    padding-top: 10px;
+    font-size: 5vw; 
+    /* 1vw = 1% e gjeresise viewport
+    eshte njesi responsive */
+  }
+  .navbar-brand p { /* Ushtrime */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Smiley face */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Teksti i Collapsed nav menu */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    /* Collapsed nav menu glyph 
+    mbishkruhet qe teksti te jete i nje 
+    madhesie me ikonen glyph*/
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #C6C6C6;
+    color: #61122f;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* Perfundoi Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* Perfundoi Footer */
+
+    /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+    #stafi-tile, #deget-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  
+  .menu-item-description {
+    text-align: center;
+  }
+  /* Perfundoi Home Page */
+}
+
+ /********** Ekrane super te vogla (jashte bootstrap) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* Perfundoi Header */
+  
+  /* Home page */
+  #stafi-tile, #deget-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+ 
+  /* Perfundoi  Home Page*/
+
+}

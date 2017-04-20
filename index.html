@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Universiteti i Prishtines</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	<nav id="header-nav" class="navbar navbar-default">
+
+		<div class="container"> 
+
+			<div class="navbar-header">
+				<a href="index.html" class="pull-left visible-md visible-lg">
+					<div id="logo-img" alt="logo image">
+						
+					</div>
+				</a>
+
+			<div class="navbar-brand">
+            	<a href="index.html"><h1>Universiteti i Prishtines</h1></a>
+	            
+	            <p>
+	              <img src="images/Graduation.png" height="40" width="40" alt="Smiley face">
+	              <span>Ushtrime</span>
+	            </p>
+          	</div>
+
+          	<button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          	</button>
+
+			</div>
+			
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+
+              <li class="visible-xs active">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span> Home</a>
+              </li>
+	            <li>
+	              <a href="stafi.html">
+	                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Stafi</a>
+	            </li>
+	            <li>
+	              <a href="departamentet.html">
+	                <span class="glyphicon glyphicon-lock"></span><br class="hidden-xs"> Deget</a>
+	            </li>
+	            <li>
+	              <a href="#">
+	                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Arritjet</a>
+	            </li>
+	            <li id="phone" class="hidden-xs">
+	              <a href="tel:123-456-7890">
+	                <span>123-456-7890</span></a><div>* Referentat</div>
+	            </li>
+          </ul><!-- #nav-list -->
+
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div><!-- .container -->
+
+
+    </nav><!-- #header-nav -->
+</header>
+
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:123-456-7890">
+    <span class="glyphicon glyphicon-earphone"></span>
+    123-456-7890
+    </a>
+</div>
+<div id="xs-deliver" class="text-center visible-xs">* Referentat</div>
+
+
+
+<div id="main-content" class="container">
+
+	<div class="jumbotron">
+	
+		<img src="images/768-432-vogel.jpg" height="432" width="768" alt="Klasa e Fiekut" class="img-responsive visible-xs">	
+
+	</div>
+
+
+  
+
+	<div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="stafi.html"><div id="stafi-tile"><span>Stafi</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="departamentet.html"><div id="deget-tile"><span>Deget</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://www.google.com/maps/place/Universiteti+i+Prishtin%C3%ABs/@42.6484076,21.164943,17z/data=!3m1!4b1!4m5!3m4!1s0x13549ec1b5430613:0x76c9353194f18686!8m2!3d42.6484076!4d21.1671317" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.6109252139445!2d21.1649430158507!3d42.64840757916863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ec1b5430613%3A0x76c9353194f18686!2sUniversiteti+i+Prishtin%C3%ABs!5e0!3m2!1sen!2s!4v1484143615896" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>Adresa</span>
+          </div>
+
+        </a>
+      </div>
+    </div>  <!-- #home-tiles -->
+
+</div> <!-- #main-content  .container -->
+
+
+<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="orari" class="col-sm-4">
+          <span>Planprogrami:</span><br>
+          Bachelor: E hene - E merkure<br>
+          Master: E enjte - E premte<br>
+          Praktika: E shtune
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Adresa:</span><br>
+          Bregu i Diellit p.n.<br>
+          Prishtine, Rep. e Kosoves
+          <p>* Kontakti me referentet behet vetem ne rast urgjencash, ose ne ditet e percaktuara.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="theniet" class="col-sm-4">
+          <p>"Dituria nuk ka vlere, pervec nese e fut ne praktike! - Anton Chekov"</p>
+          <p>"In case of not reaching success, let it be a spectacular failure ! - E panjohur"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Kastriot Limani Ushtrime 2017</div>
+    </div>
+  </footer>
+
+
+
+
+
+<!-- jQuery (Bootstrap JS pluginat varen nga kjo) -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>	
+</body>
+</html>
